@@ -1,9 +1,9 @@
 # -*- mode: python -*-
 
-added_data = [('xau_libs\\lib.py', 'xau_libs\\lib.py'),
-              ('xau_libs\\QuikPy\\QuikPy.py', 'xau_libs\\QuikPy\\QuikPy.py')]
+added_data = [('lib_dir_1\\lib_1.lib', 'lib_dir_1\\lib_1.lib'),
+              ('lib_dir_2\\lib_2.lib', 'lib_dir_2\\lib_2.lib')]
 
-a = Analysis(['xau.py'],
+a = Analysis(['lib.py'],
              binaries=[],
              datas=added_data,
              hiddenimports=[],
