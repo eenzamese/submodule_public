@@ -13,7 +13,7 @@ jobs:
         with:
           submodules: 'recursive'
       - name: Run Python script
-        run: python set_version.py
+        run: python ..\\pyinst_env\\set_version.py
       - name: Create Executable
         uses: sayyid5416/pyinstaller@v1
         with:
