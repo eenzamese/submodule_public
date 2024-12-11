@@ -8,6 +8,12 @@ jobs:
     runs-on: windows-latest
     permissions: write-all
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+      - name: Run Python script
+        run: python set_version.py
       - name: Create Executable
         uses: sayyid5416/pyinstaller@v1
         with:
