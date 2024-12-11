@@ -23,6 +23,6 @@ exe = EXE(
     debug=False,
     strip=False,
     upx=True,
-    console=True
+    console=True,
     version='ms_version.txt', # Specify version info file for metadata
 )
