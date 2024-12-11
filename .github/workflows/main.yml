@@ -15,7 +15,7 @@ jobs:
           spec: 'lib.py'
           requirements: 'requirements.txt'
           upload_exe_with_name: 'lib.exe'
-          options: --onefile   
+          options: --version-file=ms_version.txt
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
