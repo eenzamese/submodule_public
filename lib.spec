@@ -24,5 +24,5 @@ exe = EXE(
     strip=False,
     upx=True,
     console=True,
-    version='ms_version.txt', # Specify version info file for metadata
+    version='ms_version_1.txt', # Specify version info file for metadata
 )
