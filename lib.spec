@@ -19,7 +19,7 @@ exe = EXE(
     a.binaries,
     a.zipfiles,
     a.datas,
-    name='xau',
+    name='lib',
     debug=False,
     strip=False,
     upx=True,
