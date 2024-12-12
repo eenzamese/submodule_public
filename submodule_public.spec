@@ -3,7 +3,7 @@
 added_data = [('lib_dir_1\\lib_1.lib', 'lib_dir_1\\lib_1.lib'),
               ('lib_dir_2\\lib_2.lib', 'lib_dir_2\\lib_2.lib')]
 
-a = Analysis(['lib.py'],
+a = Analysis(['submodule_public.py'],
              binaries=[],
              datas=added_data,
              hiddenimports=[],
