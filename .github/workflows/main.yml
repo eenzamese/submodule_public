@@ -26,4 +26,4 @@ jobs:
         with:
           tag_name: tag-${{ github.run_id }}-${{ github.run_attempt }}
           name: rel-${{ github.run_id }}-${{ github.run_attempt }}
-          files: ./dist/lib.exe
+          files: ./dist/${{ github.event.repository.name }}.exe
