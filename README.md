@@ -1,9 +1,8 @@
-<div align="center"><h1 align="left">Switch active NIC based on Internet speed</h1></div>
+<div align="center"><h1 align="left">Test submodule way in public availability</h1></div>
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-[![Product Name Screen Shot][product-screen]](https://example.com)
 
 Test only purposes
 
