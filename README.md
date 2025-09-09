@@ -16,20 +16,8 @@ Clone the repo
 
 ## Usage
 
-Edit inputs in speed_switch.py
-```py
-# inputs
-APP_TMT = 60
-SUCCESS_TMT = 600
-FAIL_TMT = 60
-ERR_TMT = 10
-INET_HOST = '8.8.8.8'
-```
+Nothing special, test git mechanics only
 
-Run python script
-   ```sh
-   python3 submodule_public/submodule_public.py
-   ```
 <!-- LICENSE -->
 
 ## Contact
